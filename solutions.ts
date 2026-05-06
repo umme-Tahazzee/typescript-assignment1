@@ -9,5 +9,15 @@ const filterEvenNumbers = (arr: number[] ):number[] =>{
             })
         )
 }
-const result = filterEvenNumbers([1, 2, 3, 4, 5, 6])
-console.log(result);
+ filterEvenNumbers([1, 2, 3, 4, 5, 6])
+
+
+
+// Problem 2:
+
+const reverseString = (str: string):string => {
+     return str.split('').reverse().join('')
+}
+
+reverseString("typescript")
+
