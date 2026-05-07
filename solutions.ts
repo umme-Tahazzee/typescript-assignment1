@@ -21,3 +21,19 @@ const reverseString = (str: string):string => {
 
 reverseString("typescript")
 
+// Problem 3:
+
+type guards = 'string' | 'number'
+
+const checkType = (input:guards):string => {
+     if(typeof(input) === 'string' ){
+              return 'String'
+         }
+
+        else{
+             return 'Number'
+        }
+}
+
+
+console.log(checkType('karia'));
