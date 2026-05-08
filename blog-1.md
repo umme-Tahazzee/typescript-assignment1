@@ -1,0 +1,1 @@
+Why is any called a “type safety hole”?
