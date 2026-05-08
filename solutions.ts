@@ -23,10 +23,10 @@ reverseString("typescript")
 
 // Problem 3:
 
-type guards = 'string' | 'number'
+type stringOrNumber = string | number
 
-const checkType = (input:guards):string => {
-     if(typeof(input) === 'string' ){
+const checkType = (input:stringOrNumber):string => {
+     if(typeof input === 'string' ){
               return 'String'
          }
 
@@ -35,8 +35,7 @@ const checkType = (input:guards):string => {
         }
 }
 
-
-checkType('karia')
+checkType('Hello')
 
 // problem 4 
 
